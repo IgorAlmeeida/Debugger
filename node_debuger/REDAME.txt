@@ -1,0 +1,31 @@
+1 - Criar o arquivo lancher.json do Visual Code, disponível no campo de deputação (Icone Aranha).  
+2 - Colar as sequintes configurações. 
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "attach",
+            "protocol": "inspector",
+            "restart": true,
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        }
+    ]
+}
+
+3 - Criar o arquivo nodemon.json na raiz do projeto e colar as sequintes configurações: 
+{
+    "execMap": {
+        "js" : "node --inspect"
+    }
+
+}
+
+4 - Reiniciar servidor node
+5 - Utilizar marcar breakpoint e realizar a deputação.
