@@ -19,7 +19,7 @@
 4 - Apontar, em settings do Visual Code no campo executablePath o arquivo php.exe do xampp 
 
 	"php.validate.run": "onType",
-    	"php.validate.executablePath": "C:\\xampp\\php\\php.exe"
+	"php.validate.executablePath": "C:\\xampp\\php\\php.exe"
  
 5 - Criar o arquivo lancher.json do Visual Code, disponível no campo de deputação (Icone Aranha).  
 5.1 - Colar esses dados no script.
