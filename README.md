@@ -16,6 +16,7 @@
 
 
 3 - Instalar a extenssão PHP Debug
+
 4 - Apontar, em settings do Visual Code no campo executablePath o arquivo php.exe do xampp 
 
 	"php.validate.run": "onType",
