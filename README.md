@@ -6,7 +6,9 @@
  ## PHP
  
  1 - Colar a extenssão do xdebuge no arquivo na pasta ext do php no xampp
+ 
 1.1 - https://xdebug.org/wizard baixar dll.
+
 2 - Colar as sequintes configurações no arquivo php.ini
 
 	[XDebug]
@@ -23,6 +25,7 @@
 	"php.validate.executablePath": "C:\\xampp\\php\\php.exe"
  
 5 - Criar o arquivo lancher.json do Visual Code, disponível no campo de deputação (Icone Aranha).  
+
 5.1 - Colar esses dados no script.
         
             // Use IntelliSense to learn about possible attributes.
@@ -47,9 +50,11 @@
             ]
         
 6 - Reiniciar o apache
+
 7 - Reiniciar o Visual Code
 
-8 - Marcar o breakpoint e utilizar e ativar o debug,
+8 - Marcar o breakpoint e utilizar e ativar o debug.
+
 9 - Realizar a chamda da função. 
 
 <hr>
@@ -86,5 +91,6 @@
 
 
 4 - Reiniciar servidor node
+
 5 - Utilizar marcar breakpoint e realizar a deputação.
 
